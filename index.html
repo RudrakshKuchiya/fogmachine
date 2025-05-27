@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureFog - Professional Fogging Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="brand-section">
+                        <h2>PureFog</h2>
+                        <img src="makeinindia.png" alt="Make in India" class="make-in-india-logo">
+                    </div>
+                    <p class="brand-tagline">A Brand by <strong>GK MicroMetals</strong></p>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#company" class="nav-link">Company</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#products" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <h4>Portable Foggers</h4>
+                                <a href="#th-130">TH-130</a>
+                                <a href="#ss400f">SS400F</a>
+                                <a href="#fony">FONY Middle Sized</a>
+                                <a href="#th-250">TH-250 Trolly</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#applications" class="nav-link">Applications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Professional Fogging Solutions</h1>
+            <p>Leading manufacturer of portable foggers for pest control, disinfection, and plant protection in India</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Explore Products</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slides">
+                        <div class="carousel-slide active">
+                            <img src="1.jpg" alt="TH-130 Fogger" class="carousel-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="2.jpg" alt="SS400F Fogger" class="carousel-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="3.jpg" alt="FONY Middle Sized Fogger" class="carousel-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="4.jpg" alt="TH-250 Trolly Fogger" class="carousel-image">
+                        </div>
+                    </div>
+                    <button class="carousel-btn carousel-prev" onclick="changeSlide(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn carousel-next" onclick="changeSlide(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" onclick="currentSlide(1)"></span>
+                    <span class="indicator" onclick="currentSlide(2)"></span>
+                    <span class="indicator" onclick="currentSlide(3)"></span>
+                    <span class="indicator" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Portable Foggers</h2>
+            <div class="products-grid">
+                <!-- TH-130 -->
+                <div class="product-card" id="th-130">
+                    <div class="product-image">
+                        <img src="1.jpg" alt="TH-130 Fogger" class="product-photo">
+                    </div>
+                    <div class="product-content">
+                        <h3>TH-130</h3>
+                        <p class="product-subtitle">Fogging & Spraying Machine</p>
+                        <p class="product-description">Push Button / Automatic Starting</p>
+                        
+                        <div class="product-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Weight:</span>
+                                <span class="spec-value">8.5 kg</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Dimensions:</span>
+                                <span class="spec-value">1180×230×330 mm</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Solution Tank:</span>
+                                <span class="spec-value">4.5 liter</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Fuel Tank:</span>
+                                <span class="spec-value">1.2 liter</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Solution Output:</span>
+                                <span class="spec-value">40 liter/hr</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Fuel Consumption:</span>
+                                <span class="spec-value">1.3 liter/hr</span>
+                            </div>
+                        </div>
+
+                        <div class="product-applications">
+                            <h4>Applications:</h4>
+                            <div class="application-tags">
+                                <span class="tag">Fogging</span>
+                                <span class="tag">Spraying</span>
+                                <span class="tag">Pest Control</span>
+                                <span class="tag">Disinfection</span>
+                            </div>
+                        </div>
+
+                        <div class="product-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Push Button / Automatic Starting</li>
+                                <li>DC 6V Rechargeable Battery</li>
+                                <li>Double Air Cooling</li>
+                                <li>Plastic (PE) Solution Tank</li>
+                                <li>Compact and Lightweight Design</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- SS400F -->
+                <div class="product-card" id="ss400f">
+                    <div class="product-image">
+                        <img src="2.jpg" alt="SS400F Fogger" class="product-photo">
+                    </div>
+                    <div class="product-content">
+                        <h3>SS400F</h3>
+                        <p class="product-subtitle">Car Mounted Fogging Machine</p>
+                        <p class="product-description">Thermal Fogger with Large Capacity</p>
+                        
+                        <div class="product-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Net Weight:</span>
+                                <span class="spec-value">50.00 kg</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Dimensions:</span>
+                                <span class="spec-value">1560×380×760 mm</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Chemical Tank:</span>
+                                <span class="spec-value">108 L</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Fuel Tank:</span>
+                                <span class="spec-value">13 L</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Spraying Method:</span>
+                                <span class="spec-value">Thermal Fogger</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Cooling System:</span>
+                                <span class="spec-value">Air Cooling</span>
+                            </div>
+                        </div>
+
+                        <div class="product-applications">
+                            <h4>Applications:</h4>
+                            <div class="application-tags">
+                                <span class="tag">Large Area Fogging</span>
+                                <span class="tag">Vehicle Mounted</span>
+                                <span class="tag">Commercial Use</span>
+                                <span class="tag">Pest Control</span>
+                            </div>
+                        </div>
+
+                        <div class="product-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Car Mounted Design</li>
+                                <li>Large Chemical Tank Capacity</li>
+                                <li>Air Cooling System</li>
+                                <li>Heavy Duty Construction</li>
+                                <li>Professional Grade Equipment</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- FONY -->
+                <div class="product-card" id="fony">
+                    <div class="product-image">
+                        <img src="3.jpg" alt="FONY Middle Sized Fogger" class="product-photo">
+                    </div>
+                    <div class="product-content">
+                        <h3>FONY Middle Sized</h3>
+                        <p class="product-subtitle">Thermal Fogger & ULV Mist</p>
+                        <p class="product-description">No blockage will always start! Narrow radius light task!</p>
+                        
+                        <div class="product-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Weight:</span>
+                                <span class="spec-value">7.00 kg</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Dimensions:</span>
+                                <span class="spec-value">940×265×360 mm</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Solution Tank:</span>
+                                <span class="spec-value">2.7 L</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Fuel Tank:</span>
+                                <span class="spec-value">1.0 L</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Solution Output:</span>
+                                <span class="spec-value">20 L/hr</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Fuel Consumption:</span>
+                                <span class="spec-value">0.8 L/hr</span>
+                            </div>
+                        </div>
+
+                        <div class="product-applications">
+                            <h4>Applications:</h4>
+                            <div class="application-tags">
+                                <span class="tag">Thermal Fogging</span>
+                                <span class="tag">ULV Misting</span>
+                                <span class="tag">Light Tasks</span>
+                                <span class="tag">Portable Use</span>
+                            </div>
+                        </div>
+
+                        <div class="product-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>No Blockage Design</li>
+                                <li>Always Reliable Start</li>
+                                <li>Fuel Adjustment Starting</li>
+                                <li>EC6V Rechargeable Battery</li>
+                                <li>Compact Middle Size</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- TH-250 -->
+                <div class="product-card" id="th-250">
+                    <div class="product-image">
+                        <img src="4.jpg" alt="TH-250 Trolly Fogger" class="product-photo">
+                    </div>
+                    <div class="product-content">
+                        <h3>TH-250 Trolly Fogger</h3>
+                        <p class="product-subtitle">Mounted on Trolly Fogger</p>
+                        <p class="product-description">Easy and fast controlling for pests and harmful insects</p>
+                        
+                        <div class="product-specs">
+                            <div class="spec-row">
+                                <span class="spec-label">Weight:</span>
+                                <span class="spec-value">36 kg</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Dimensions:</span>
+                                <span class="spec-value">1650×1100×580 mm</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Solution Tank:</span>
+                                <span class="spec-value">30 L</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Fuel Tank:</span>
+                                <span class="spec-value">3.2 L</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Solution Output:</span>
+                                <span class="spec-value">65 L/hr</span>
+                            </div>
+                            <div class="spec-row">
+                                <span class="spec-label">Fuel Consumption:</span>
+                                <span class="spec-value">1.80 L/hr</span>
+                            </div>
+                        </div>
+
+                        <div class="product-applications">
+                            <h4>Applications:</h4>
+                            <div class="application-tags">
+                                <span class="tag">Fogging</span>
+                                <span class="tag">ULV Misting</span>
+                                <span class="tag">Large Areas</span>
+                                <span class="tag">Pest Control</span>
+                            </div>
+                        </div>
+
+                        <div class="product-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Trolly Mounted Design</li>
+                                <li>Double Air Cooling</li>
+                                <li>Large Solution Tank</li>
+                                <li>Easy Mobility</li>
+                                <li>High Output Capacity</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section id="applications" class="applications-section">
+        <div class="container">
+            <h2 class="section-title">Applications</h2>
+            <div class="applications-grid">
+                <div class="application-card">
+                    <div class="application-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Pest Control</h3>
+                    <ul>
+                        <li>Vector / Mosquito Control</li>
+                        <li>Waste Pipe Treatment</li>
+                        <li>General Pest Management</li>
+                    </ul>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Plant Protection</h3>
+                    <ul>
+                        <li>Outdoor Applications</li>
+                        <li>Indoor / Greenhouse</li>
+                        <li>Crop Protection</li>
+                    </ul>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Livestock Hygiene</h3>
+                    <ul>
+                        <li>Disinfection</li>
+                        <li>Decontamination</li>
+                        <li>Hygiene Management</li>
+                    </ul>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3>Stored Product</h3>
+                    <ul>
+                        <li>Silo Treatment</li>
+                        <li>Warehouse Protection</li>
+                        <li>Sprout Control</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology-section">
+        <div class="container">
+            <div class="technology-content">
+                <div class="technology-text">
+                    <h2>Thermal Fogging Technology</h2>
+                    <p>Thermal fogging is the generation of ultra-fine droplets in a range of 1-50 μm using thermo-pneumatic energy. Liquid substances are vaporized in the unit and form ultra-fine aerosols by condensing on contact with cool ambient air.</p>
+                    <div class="technology-benefits">
+                        <h3>Key Benefits:</h3>
+                        <ul>
+                            <li>Uniform distribution in inaccessible places</li>
+                            <li>Minimum quantity of pesticide solution</li>
+                            <li>Less operational work</li>
+                            <li>Little harm to the environment</li>
+                            <li>No penetration into the ground</li>
+                            <li>CE Certified</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Can We Help You? Any Questions?</h2>
+            <div class="contact-content">
+                <div class="contact-info-centered">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kanpur Road, Lucknow</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 88406 21939</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@purefog.in</span>
+                    </div>
+                    <div class="contact-item email-action">
+                        <a href="mailto:info@purefog.in" class="email-link">
+                            <i class="fas fa-envelope-open"></i>
+                            <span>Send Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>A Brand by GK MicroMetals Pvt Ltd</h3>
+                    <p>Leading manufacturer of professional fogging equipment for pest control, disinfection, and plant protection in India.</p>
+                    <p class="footer-address">Kanpur Road, Lucknow</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#th-130">TH-130</a></li>
+                        <li><a href="#ss400f">SS400F</a></li>
+                        <li><a href="#fony">FONY Middle Sized</a></li>
+                        <li><a href="#th-250">TH-250 Trolly</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Applications</h4>
+                    <ul>
+                        <li><a href="#">Pest Control</a></li>
+                        <li><a href="#">Plant Protection</a></li>
+                        <li><a href="#">Livestock Hygiene</a></li>
+                        <li><a href="#">Stored Product</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Setup Instructions - PureFog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .instruction {
+            background: #f0f8ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .file-list {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+        .important {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🖼️ Image Setup Instructions for PureFog Website</h1>
+    
+    <div class="important">
+        <h2>📋 Quick Setup</h2>
+        <p>To display your machine photos on the website, you need to add 4 image files to the same folder as your HTML file:</p>
+    </div>
+
+    <div class="file-list">
+        <strong>Required Image Files:</strong><br>
+        📁 Your Website Folder/<br>
+        ├── index.html<br>
+        ├── styles.css<br>
+        ├── script.js<br>
+        ├── <strong>1.jpg</strong> ← TH-130 machine photo<br>
+        ├── <strong>2.jpg</strong> ← SS400F machine photo<br>
+        ├── <strong>3.jpg</strong> ← FONY machine photo<br>
+        └── <strong>4.jpg</strong> ← TH-250 machine photo<br>
+    </div>
+
+    <div class="instruction">
+        <h3>🔧 Step-by-Step Instructions:</h3>
+        <ol>
+            <li><strong>Rename your machine photos:</strong>
+                <ul>
+                    <li>TH-130 machine photo → rename to <code>1.jpg</code></li>
+                    <li>SS400F machine photo → rename to <code>2.jpg</code></li>
+                    <li>FONY machine photo → rename to <code>3.jpg</code></li>
+                    <li>TH-250 machine photo → rename to <code>4.jpg</code></li>
+                </ul>
+            </li>
+            <li><strong>Copy the renamed images</strong> to the same folder where your <code>index.html</code> file is located</li>
+            <li><strong>Open index.html</strong> in your web browser to see the images displayed</li>
+        </ol>
+    </div>
+
+    <div class="instruction">
+        <h3>📐 Image Recommendations:</h3>
+        <ul>
+            <li><strong>Format:</strong> JPG, PNG, or WebP</li>
+            <li><strong>Size:</strong> Recommended width: 800-1200 pixels</li>
+            <li><strong>Aspect Ratio:</strong> 4:3 or 16:9 works best</li>
+            <li><strong>File Size:</strong> Keep under 500KB for fast loading</li>
+        </ul>
+    </div>
+
+    <div class="instruction">
+        <h3>🎨 Current Image Mapping:</h3>
+        <table border="1" style="width: 100%; border-collapse: collapse;">
+            <tr style="background: #f0f0f0;">
+                <th style="padding: 10px;">Image File</th>
+                <th style="padding: 10px;">Machine</th>
+                <th style="padding: 10px;">Description</th>
+            </tr>
+            <tr>
+                <td style="padding: 10px;"><code>1.jpg</code></td>
+                <td style="padding: 10px;"><strong>TH-130</strong></td>
+                <td style="padding: 10px;">Fogging & Spraying Machine</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;"><code>2.jpg</code></td>
+                <td style="padding: 10px;"><strong>SS400F</strong></td>
+                <td style="padding: 10px;">Car Mounted Fogging Machine</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;"><code>3.jpg</code></td>
+                <td style="padding: 10px;"><strong>FONY</strong></td>
+                <td style="padding: 10px;">Middle Sized Thermal Fogger & ULV Mist</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;"><code>4.jpg</code></td>
+                <td style="padding: 10px;"><strong>TH-250</strong></td>
+                <td style="padding: 10px;">Trolly Mounted Fogger</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="important">
+        <h3>⚠️ Troubleshooting</h3>
+        <p><strong>If images don't show up:</strong></p>
+        <ul>
+            <li>Check that image files are named exactly: <code>1.jpg</code>, <code>2.jpg</code>, <code>3.jpg</code>, <code>4.jpg</code></li>
+            <li>Ensure images are in the same folder as <code>index.html</code></li>
+            <li>Try refreshing your browser (Ctrl+F5 or Cmd+Shift+R)</li>
+            <li>Check that image files are not corrupted</li>
+        </ul>
+    </div>
+
+    <div class="instruction">
+        <h3>🚀 Alternative: Using Different Image Formats</h3>
+        <p>If you prefer different image formats or names, you can edit the <code>index.html</code> file:</p>
+        <p>Find lines like <code>&lt;img src="1.jpg" alt="TH-130 Fogger" class="product-photo"&gt;</code> and change the <code>src</code> attribute to match your image file names.</p>
+    </div>
+
+    <p style="text-align: center; margin-top: 40px; color: #666;">
+        <em>Once you've added the images, your PureFog website will be ready to showcase your professional fogging equipment!</em>
+    </p>
+</body>
+</html> 
